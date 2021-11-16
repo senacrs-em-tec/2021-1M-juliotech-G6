@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+ 
+}
+
+
+#header{
+  background-color: white;
+}
+body{
+  background-color: #ebebeb;
+  width: 100%;
+  
+}
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+   width: 20%; 
+   padding-right: 15px; 
+   padding-left: 15px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+#header {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  background:white;
+}
+
+
+
+
+
+
+
+  #menu {
+    display: block;
+    position: absolute;
+    width: 15%;
+    top: 100px;
+   left: 0px;
+    background: #00427e;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    color: white;
+  }
+  #nav.active #menu {
+    height: calc(70vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  
+  #btn-mobile {
+    display: flex;
+    padding-left: 60px;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 3px solid;
+    width: 25px;
+    color: #00427e ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+    color: #00427e;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -8px;
+  }
+  #nav #menu li{
+    display: block;
+
+   text-align: center;
+   margin-top: 10px; 
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+  }
+#nav #menu li a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+#nav #menu li a:hover{
+  color: cyan;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.search-box{
+  position: absolute;
+  top: 8%;
+  left: 77%;
+  transform: translate(0%,-50%);
+  background: #00427e;
+  height: 30px;
+  border-radius: 40px;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.search-btn{
+  color: #00a8ff;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #00427e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+  margin-bottom: 20px;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 13px;
+  transition: 0.4s;
+  line-height: 30px;
+  width:0px;
+}
+
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+  background: white;
+}
+*, ::after, ::before {
+  box-sizing: unset ;
+}
+#onde-atuamos{
+  display: block;
+  width: 300px;
+margin-left: 70px;
+padding-top: 50px;
+float: left;
+}
+#onde-atuamos p{
+  text-align: justify;
+  font-family: 'Roboto', Medium ;
+  color: rgb(54, 54, 54);
+}
+#onde-atuamos h1{
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  background-color: white;
+}
+#nossa-história{
+  display: block;
+  width: 300px;
+float: left;
+padding-top: 50px;
+margin-left: 150px;
+
+}
+#nossa-história h1{
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  background-color: white;}
+#nossa-história img{
+  width: 300px;
+  height: 200px;
+}
+#nossa-história p{
+  text-align: justify;
+  font-family: 'Roboto', Medium ;
+  color: rgb(54, 54, 54);
+
+}
+#sobre-nós{
+  display: block;
+  width: 300px;
+float: left;
+padding-top: 50px;
+margin-left: 150px;
+
+}
+#sobre-nós h1{
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  background-color: white;}
+#sobre-nós img{
+  width: 300px;
+  height: 200px;
+}
+#sobre-nós p{
+  text-align: justify;
+  font-family: 'Roboto', Medium ;
+  color: rgb(54, 54, 54);
+
+}
+#carouselExampleControls{
+  display: block;
+  background-color: #00427e;
+ 
+  height: 400px;
+  float: left;
+  margin-top: 100px;
+ 
+ color: white;
+ text-align: center;
+ border-radius: 10px;
+ align-items: center;
+ margin-bottom: 100px;
+}
+img{
+  vertical-align: 0%;
+}
+.carousel-inner{
+  width: 350px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.carousel-inner p{
+  margin-left: 50px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.carousel-inner h5{
+  margin-top: 0px;}
+  .rounded-circle{
+    margin-top: 25px;
+    align-items: center;
+  }
+  #carouselExampleControls h1{
+    font-family: 'Oswald', sans-serif;}
+ #bora{
+   width: 30px;
+ }
+ #cont{
+   padding-right: 100px;
+ }
+ #footer{
+   width: 100%;
+   height: 500px;
+   display: block;
+   margin-top: 100%;
+   background-color: lawngreen;
+ }
+ #col1{
+   background-color: cyan;
+ }
+ #col2{
+   background-color: lawngreen;
+ }
+ #col3{
+   background-color: yellow;
+ }
+ #conta{
+   width: 100%;
+ }
+ footer{
+  width: 100%;
+    display: block;
+    margin-top: 100%;
+    background-color: white;
+    height: 74px;
+    font-family: 'Merriweather', serif;
+    z-index: -1;
+  }
+   #container{
+     width: 100%;
+   }
+  .logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    color: #00427e;
+  }
+  .col-sm{
+    margin-top: 2%;
+    border-left: 2px solid black;
+    text-align: center;
+  }
+  .lin{
+    float: left;
+    padding-left: 10px;
+    color: black;
+  }
+  .lin:hover{
+    text-decoration: none;
+  }
+  
