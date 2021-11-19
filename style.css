@@ -340,6 +340,19 @@ img{
   #mais{
     display: none;
   }
+  #participantes{
+    text-align: center;
+    margin-top: 100%;
+  }
+  #participantes p{
+  background-color: black;
+  color: cyan;
+  }
+  #participantes h1{
+   background-color: cyan;
+    display: block;
+  }
+  
   @media screen and (min-width:1000px) {
   #mobile{
     display: none;

@@ -29,7 +29,7 @@ if(pontos.style.display === "none"){
 }else{
   pontos.style.display="none";
   maistexto.style.display="inline";
-  btnparticipantes.innerHTML="ocultar participantes"
+  btnparticipantes.innerHTML=" ocultar participantes";
 }
 
 
