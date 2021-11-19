@@ -13,5 +13,25 @@ function toggleMenu(event) {
   }
 }
 
+
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+function participantes(){
+  var pontos=document.getElementById("pontos")
+  var maistexto=document.getElementById("mais")
+  var btnparticipantes=document.getElementById("btnparticpantes")
+
+if(pontos.style.display === "none"){
+  pontos.style.display= "inline";
+  maistexto.style.display="none";
+  btnparticipantes.innerHTML="mostrar participantes";
+}else{
+  pontos.style.display="none";
+  maistexto.style.display="inline";
+  btnparticipantes.innerHTML="ocultar participantes"
+}
+
+
+
+}

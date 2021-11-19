@@ -337,11 +337,58 @@ img{
   .lin:hover{
     text-decoration: none;
   }
-  @media screen and (min-width:1000px) {
-    
+  #mais{
+    display: none;
   }
-  @media screen and (max-width:1000px){
+  @media screen and (min-width:1000px) {
+  #mobile{
+    display: none;
+  }
+  }
+  @media only screen and (max-width:1000px){
 .desk{
   display: none;
+}
+.search-box{
+  display: none;
+}
+#nossa-história-mobile img{
+  width: 100%;
+}
+#sobre-nós-mobile img{
+  width: 100%;
+}
+#carouselExampleControls{
+  display: none;
+}
+
+#menu{
+  width: 30%;
+}
+.container{
+  width: 100%;
+  text-align: center;
+}
+#onde-atuamos-mobile{
+  width: 100%;
+  
+}
+#onde-atuamos-mobile p{
+  text-align: justify; 
+  margin-top: 2%;
+} 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+#btn-mobile{
+  padding-left: 0px;
+}
+#nossa-história-mobile p{
+  text-align: justify;
+  margin-top: 2%;
+}
+#sobre-nós-mobile p{
+  text-align: justify;
+  margin-top: 2%;
 }
   }
