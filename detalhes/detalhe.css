@@ -1,0 +1,144 @@
+body{
+  
+    background-color: #ebebeb ;
+
+}
+
+h1{
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 190px;
+    color:rgba(2, 2, 2, 0.733)
+  }
+  
+  .produto1{
+  
+    margin-left: 170px;
+    margin-top: 22px;
+    padding: 20px;
+    border-radius: 30px;
+    padding-bottom: 40px;
+
+    
+  }
+
+  h2{
+
+    font-size: 20px;
+    padding-top: 110px;
+
+  }
+
+  #descriçao{
+    
+    font-family: 'Times New Roman', Times, serif -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 15px;
+    padding-right: 160px;
+    text-align: justify;
+    
+
+  
+  }
+
+  #footer{
+
+    width: 100%;
+ 
+    height: 500px;
+ 
+    display: block;
+ 
+    margin-top: 100%;
+ 
+    background-color: lawngreen;
+ 
+  }
+ 
+  #col1{
+ 
+    background-color: cyan;
+ 
+  }
+ 
+  #col2{
+ 
+    background-color: lawngreen;
+ 
+  }
+ 
+  #col3{
+ 
+    background-color: yellow;
+ 
+  }
+ 
+  #conta{
+ 
+    width: 100%;
+ 
+  }
+ 
+  footer{
+ 
+     width: 100%;
+ 
+     display: block;
+ 
+     margin-top: 70px;
+ 
+     background-color: white;
+ 
+     height: 74px;
+ 
+     font-family: 'Merriweather', serif;
+ 
+     z-index: -1;
+ 
+   }
+   #container{
+
+    width: 100%;
+
+  }
+
+ .logo{
+
+   width: 30px;
+
+   height: 30px;
+
+   float: left;
+
+   color: #00427e;
+
+ }
+
+ .col-sm{
+
+   margin-top: 2%;
+
+   border-left: 2px solid black;
+
+   text-align: center;
+
+ }
+
+ .lin{
+
+   float: left;
+
+   padding-left: 10px;
+
+   color: black;
+
+ }
+
+ .lin:hover{
+
+   text-decoration: none;
+
+ }
+ 
